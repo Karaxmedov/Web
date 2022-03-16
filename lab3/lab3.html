@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background-color: blueviolet;
+      }
+      .bar {
+        margin: 40px;
+        border: 1px solid black;
+        text-align: center;
+      }
+      .bar-item {
+        background-color: chocolate;
+        display: inline-block;
+        padding: 10px 20px;
+        width: 18%;
+        text-align: center;
+        margin: 10px;
+        font-size: 25px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+
+      .row1 {
+        height: 500px;
+        width: 100%;
+      }
+      .row1-left {
+        display: inline-block;
+        padding: 100px;
+        margin: 20px 10px 20px 20px;
+        width: 57%;
+        height: 100%;
+        background-color: white;
+      }
+      .row1 h1 {
+        display: inline-block;
+        font-size: 43px;
+        background-color: chocolate;
+      }
+      .row1 .p {
+        display: inline-block;
+        font-size: larger;
+        background-color: chocolate;
+      }
+      .row1__col {
+        margin-top: 20px;
+        display: inline-block;
+        border: 1px solid black;
+        width: 40%;
+        height: 100%;
+        vertical-align: top;
+        text-align: center;
+      }
+      .row1__col1 {
+        height: 48.5%;
+        border: 1px solid black;
+        margin: 5px;
+        padding: 50px;
+        background-color: chocolate;
+      }
+      .row1__col1 h2 {
+        font-size: 30px;
+      }
+      .row1__col1 p {
+        font-size: 20px;
+      }
+      .row2 {
+        display: inline-block;
+        margin: 20px;
+        text-align: center;
+        width: 97%;
+      }
+      .row2__col {
+        display: inline-block;
+        width: 22%;
+        text-align: center;
+        padding: 10px 40px;
+        background-color: white;
+        vertical-align: top;
+        height: 250px;
+        margin-top: 20px;
+        margin: 10px;
+      }
+      .row3 {
+        margin: 30px;
+      }
+      .row3__col {
+        background-color: white;
+
+        float: left;
+        width: 60%;
+        height: 300px;
+        padding: 20px;
+      }
+      .bg {
+        background-image: url(images/indir.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 40%;
+      }
+      .row3 .button {
+        background-color: darkgoldenrod;
+        padding: 5px 10px;
+        display: inline-block;
+        font-size: 30px;
+      }
+      .row3__col ::after {
+        content: "";
+        clear: both;
+        display: block;
+      }
+      .row3__col {
+        font-size: large;
+      }
+
+      .grams_title {
+        width: 100%;
+        text-align: center;
+      }
+      .grams_title h3 {
+        display: inline-block;
+
+        padding: 0px 10px;
+        width: 20%;
+      }
+      .grams_title .after {
+        display: inline-block;
+
+        height: 10px;
+        width: 39%;
+        background-image: linear-gradient(
+          to left,
+          rgba(255, 0, 0, 0),
+          rgb(254, 198, 43)
+        );
+      }
+      .grams_title .before {
+        display: inline-block;
+
+        height: 10px;
+        width: 39%;
+        background-image: linear-gradient(
+          to right,
+          rgba(255, 0, 0, 0),
+          rgb(254, 198, 43)
+        );
+      }
+      .images {
+        width: 100%;
+        text-align: center;
+      }
+      .images img {
+        width: 24%;
+        height: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bar">
+      <div class="bar-item">Tacos</div>
+      <div class="bar-item">Beers</div>
+      <div class="bar-item">Wines</div>
+      <div class="bar-item">Desserts</div>
+      <div class="bar-item">Reservations</div>
+    </div>
+    <div class="rows">
+      <div class="row1">
+        <div class="row1-left">
+          <h1>Terry's Taco Joint</h1>
+          <p></p>
+          <p class="p">Pretty good Tacos!</p>
+        </div>
+        <div class="row1__col">
+          <div class="row1__col1">
+            <h2>1.99</h2>
+            <p>Tacos</p>
+          </div>
+          <div class="row1__col1">
+            <h2>3.99</h2>
+            <p>Kambuvha</p>
+          </div>
+        </div>
+      </div>
+      <div class="row2">
+        <div class="row2__col">
+          <img src="images/tacos.jpg" alt="" width="100px" />
+          <h2>Tacos</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
+            aspernatur esse
+          </p>
+        </div>
+        <div class="row2__col">
+          <img src="images/beer.jpg" alt="" width="100px" />
+          <h2>Beer</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
+            aspernatur esse
+          </p>
+        </div>
+        <div class="row2__col">
+          <img src="images/wine.jpg" alt="" width="100px" />
+          <h2>Wine</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
+            aspernatur esse
+          </p>
+        </div>
+        <div class="row2__col">
+          <img src="images/music.png" alt="" width="100px" />
+          <h2>Music</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
+            aspernatur esse
+          </p>
+        </div>
+      </div>
+      <div class="row3">
+        <div class="row3__col bg"></div>
+        <div class="row3__col">
+          <h2 style="font-size: larger">Lorem, ipsum dolor.</h2>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          <p class="button">Learn More</p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="grams_title">
+          <div class="before"></div>
+          <h3>Instant Games</h3>
+          <div class="after"></div>
+        </div>
+      </div>
+      <div class="images">
+        <img src="images/images.jpg" alt="" />
+        <img src="images/customer2.jpg" alt="" />
+        <img src="images/customer3.webp" alt="" />
+        <img src="images/images (1).jpg" alt="" />
+        <img src="images/images (2).jpg" alt="" />
+        <img src="images/images.jpg" alt="" />
+        <img src="images/Taco-Bell-Mexican-Pizza.webp" alt="" />
+        <img src="images/images.jpg" alt="" />
+      </div>
+    </div>
+  </body>
+</html>
